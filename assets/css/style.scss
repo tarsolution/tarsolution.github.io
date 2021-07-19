@@ -776,8 +776,9 @@ header {
     .hero-banner {
         position: absolute;
         text-align: right;
-        right: 0;
+        right: 7vw;
         top: 134px;
+        width: 40vw;
         img {}
     }
     .hero-content  {
@@ -815,8 +816,9 @@ header {
         flex-wrap: wrap;
         .single {
             flex: 1 1 auto;
+            text-align: center;
             &:last-child {
-                text-align: right;
+                
             }
             img {
                 height: 30px;
@@ -1586,7 +1588,7 @@ header {
 
 /* 1.14 Footer */
 footer {
-    padding: 110px 0 0;
+    padding:0;
     background: #120d28;
     .footer-top-area {
         padding: 0 0 60px;

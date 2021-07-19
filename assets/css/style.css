@@ -940,8 +940,9 @@ header {
 .hero-area .hero-banner {
   position: absolute;
   text-align: right;
-  right: 0;
+  right: 7vw;
   top: 134px;
+  width: 40vw;
 }
 
 .hero-area .hero-content .title {
@@ -989,10 +990,11 @@ header {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
+          text-align: center;
 }
 
 .top-brands-area .all-brands .single:last-child {
-  text-align: right;
+
 }
 
 .top-brands-area .all-brands .single img {
@@ -1853,7 +1855,7 @@ header {
 
 /* 1.14 Footer */
 footer {
-  padding: 110px 0 0;
+  padding: 0;
   background: #120d28;
 }
 
